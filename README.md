@@ -41,35 +41,9 @@ To run the project locally, follow these steps:
    pip install -r requirements.txt
    ```
 
-## Usage
 
-Execute the main script to train the model and classify SMS messages:
 
-```bash
-python main.py
-```
 
-Make sure to modify the script according to your requirements and dataset.
-
-## Dataset
-
-The dataset used for training and testing the model is available in the `data` directory. It is essential to preprocess and split the data into training and testing sets before training the model.
-
-## Model Training
-
-The model is trained using Multinomial Naive Bayes. Adjust the hyperparameters and preprocessing steps in the `train.py` file as needed.
-
-```bash
-python train.py
-```
-
-## Evaluation
-
-Evaluate the performance of the trained model on the test set:
-
-```bash
-python evaluate.py
-```
 
 ## Contributing
 
